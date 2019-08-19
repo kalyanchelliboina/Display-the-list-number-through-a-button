@@ -1,0 +1,30 @@
+//Display the list number through a button
+//First create your list
+
+<ul>
+   <li>List1</li>
+   <li>List2</li>
+   <li>List3</li>
+   <li>List4</li>
+</ul>
+
+//then create button,
+<button onclick="createListNumber()">Show Number</button>
+
+//now, create an element p tag where you can show the result.
+<p id="show"></p>
+
+//Finally,,
+
+//Write Javascript, create a function()
+
+function createListNumber(){
+     var x = document.getElementsByTagName("li");
+     document.getElementById("show").innerHTML = x.length;
+}
+
+//Here we go,
+
+//Click on the button to get the number of the list.
+
+//Thank you for reading and i hope this post helped you with information. Have a great day!
